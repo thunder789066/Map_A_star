@@ -11,7 +11,7 @@
             var coordinatesFileLines = File.ReadAllLines(coordinatesFile);
             var adjacenciesFileLines = File.ReadAllLines(adjacenciesFile);
 
-            //Read list of coordinates
+            // Read list of coordinates
             foreach (string line in coordinatesFileLines)
             {
                 string[] parts = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
@@ -25,18 +25,18 @@
                 Cities.Add(city);
             }
 
-            //Read and assemble adjacencies
+            // Read and assemble adjacencies
             foreach (string line in adjacenciesFileLines)
             {
-                string[] parts = line.Split(' ');
+                string[] parts = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 string cityOfInterestName = parts[0];
-               
+
                 //Find city of interest
                 City cityOfInterest = FindCity(cityOfInterestName);
 
-                for (int i = 1; i < parts.Length; i++) //skip city of interest
+                for (int i = 1; i < parts.Length; i++) // Skip city of interest
                 {
-                    //Find adjacent city
+                    // Find adjacent city
                     City adjacentCity = FindCity(parts[i]);
                     if (adjacentCity != null)
                     {
@@ -47,13 +47,20 @@
             }
         }
 
-        private City FindCity(string cityname)
+        public City FindCity(string cityname)
         {
             foreach (var city in Cities)
             {
-                if(city.CityName == cityname) return city;
+                if (city.CityName == cityname) return city;
             }
             return null;
+        }
+
+        // Hueristic Function
+        public static double Distance(City city1, City city2)
+        {
+            double distance = Math.Sqrt(Math.Pow(city1.Longitude - city2.Longitude, 2) + Math.Pow(city1.Latitude - city2.Latitude, 2));
+            return distance;
         }
     }
 }

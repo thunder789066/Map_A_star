@@ -1,0 +1,17 @@
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Prg_1_map_A_star.exe
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Input\Adjacencies.txt
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Input\coordinates.txt
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Prg_1_map_A_star.deps.json
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Prg_1_map_A_star.runtimeconfig.json
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Prg_1_map_A_star.dll
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\ref\Prg_1_map_A_star.dll
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\bin\Debug\net6.0\Prg_1_map_A_star.pdb
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.csproj.AssemblyReference.cache
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.AssemblyInfoInputs.cache
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.AssemblyInfo.cs
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.csproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.dll
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\ref\Prg_1_map_A_star.dll
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.pdb
+C:\Users\chris\Documents\GitHub\Prg_1_map_A_star\Prg_1_map_A_star\obj\Debug\net6.0\Prg_1_map_A_star.genruntimeconfig.cache
